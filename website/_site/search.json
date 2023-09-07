@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "James Hickman is an Assistant Teaching Professor in the Data Science and Analytics program at Georgetown University. He received his Ph.D. in Computational-Physics from George Mason University (GMU) in 2017, an M.S. in Engineering-Physics from GMU in 2014, and a double-major in Physics and Applied Mathematics from Shippensburg University in 2011. His graduate work focused on applying classical atomistic simulations to various material science and condensed matter physics problems. In 2018, he was awarded an NRC postdoctoral fellowship at the National Institute of Standards and Technology (NIST) in Gaithersburg, Maryland. click me 1\nJames Hickman is an Assistant Teaching Professor in the Data Science and Analytics program at Georgetown University. He received his Ph.D. in Computational-Physics from George Mason University (GMU) in 2017, an M.S. in Engineering-Physics from GMU in 2014, and a double-major in Physics and Applied Mathematics from Shippensburg University in 2011. His graduate work focused on applying classical atomistic simulations to various material science and condensed matter physics problems. In 2018, he was awarded an NRC postdoctoral fellowship at the National Institute of Standards and Technology (NIST) in Gaithersburg, Maryland."
+  },
+  {
+    "objectID": "about.html#undergrad",
+    "href": "about.html#undergrad",
+    "title": "About me",
+    "section": "Undergrad",
+    "text": "Undergrad"
+  },
+  {
+    "objectID": "about.html#grad-school",
+    "href": "about.html#grad-school",
+    "title": "About me",
+    "section": "Grad-school",
+    "text": "Grad-school\n\\[\n\\frac{\\partial \\mathrm C}{ \\partial \\mathrm t } + \\frac{1}{2}\\sigma^{2} \\mathrm S^{2}\n\\frac{\\partial^{2} \\mathrm C}{\\partial \\mathrm C^2}\n  + \\mathrm r \\mathrm S \\frac{\\partial \\mathrm C}{\\partial \\mathrm S}\\ =\n  \\mathrm r \\mathrm C\n\\tag{1}\\]\n\nrmarkdownquarto\n\n\nhello\n\n\ngoodbye\n\n\n\n\n\nCode\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\nA Mermaid diagram\n\n\n\nAbout this site!!!\n\\[\n\\frac{\\partial \\mathrm C}{ \\partial \\mathrm t } + \\frac{1}{2}\\sigma^{2} \\mathrm S^{2}\n\\frac{\\partial^{2} \\mathrm C}{\\partial \\mathrm C^2}\n  + \\mathrm r \\mathrm S \\frac{\\partial \\mathrm C}{\\partial \\mathrm S}\\ =\n  \\mathrm r \\mathrm C\n\\tag{2}\\]\n\nSee Figure 1 for examples."
+  },
+  {
+    "objectID": "about.html#eda",
+    "href": "about.html#eda",
+    "title": "About me",
+    "section": "EDA",
+    "text": "EDA\nCreate a simple plot.\n\\[\ni \\hbar \\frac{d}{d t} \\psi(t)=H \\psi(t)\n\\]\n“Here \\(H\\) denotes the Hamiltonian, the observable corresponding to the total energy of the system, and \\(\\hbar\\) is the reduced Planck constant. The constant \\(i \\hbar\\) is introduced so that the Hamiltonian is reduced to the classical Hamiltonian in cases where the quantum system can be approximated by a classical system; the ability to make such an approximation in certain limits is called the correspondence principle. The solution of this differential equation is given by” 2\n\\[\n\\psi(t)=e^{-i H t / \\hbar} \\psi(0) .\n\\]\n\n\n\n\n\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\n\n\nFigure 2: Temperature and ozone level."
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About me",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://quarto.org/docs/authoring/cross-references.html#figures↩︎\nhttps://en.wikipedia.org/wiki/Quantum_mechanics↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nJames Hickman is an Assistant Teaching Professor in the Data Science and Analytics program at Georgetown University. He received his Ph.D. in Computational-Physics from George Mason University (GMU) in 2017, an M.S. in Engineering-Physics from GMU in 2014, and a double-major in Physics and Applied Mathematics from Shippensburg University in 2011. His graduate work focused on applying classical atomistic simulations to various material science and condensed matter physics problems. In 2018, he was awarded an NRC postdoctoral fellowship at the National Institute of Standards and Technology (NIST) in Gaithersburg, Maryland. click me 1"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Home",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://quarto.org/docs/authoring/cross-references.html#figures↩︎"
+  }
+]

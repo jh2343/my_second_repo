@@ -1,0 +1,11 @@
+---
+title: "Home"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+James Hickman is an Assistant Teaching Professor in the Data Science and Analytics program at Georgetown University. He received his Ph.D. in Computational-Physics from George Mason University (GMU) in 2017, an M.S. in Engineering-Physics from GMU in 2014, and a double-major in Physics and Applied Mathematics from Shippensburg University in 2011. His graduate work focused on applying classical atomistic simulations to various material science and condensed matter physics problems. In 2018, he was awarded an NRC postdoctoral fellowship at the National Institute of Standards and Technology (NIST) in Gaithersburg, Maryland. [click me](https://quarto.org/docs/authoring/cross-references.html#figures) [^my_note]
+
+[^my_note]: https://quarto.org/docs/authoring/cross-references.html#figures
